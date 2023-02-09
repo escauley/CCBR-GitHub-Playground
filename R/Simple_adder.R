@@ -14,9 +14,9 @@ Simple_adder <- function (item_1, item_2){
       output <- as.numeric(as.character(input))
     } else {
       output <- input
-    };
+    }
     return(output)
-  }
+  }}}
   
   if (class(turn_numeric(item_1)) != "numeric" || class(turn_numeric(item_2)) != "numeric"){
     return_item <- paste0(toString(item_1),toString(item_2))
