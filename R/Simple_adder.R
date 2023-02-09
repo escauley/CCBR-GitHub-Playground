@@ -14,7 +14,7 @@ Simple_adder <- function (item_1, item_2){
       output <- as.numeric(as.character(input))
     } else {
       output <- input
-    }
+    };
     return(output)
   }
   
